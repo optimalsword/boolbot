@@ -11,6 +11,7 @@ if __name__ == '__main__':
     print('=== DECISION TREE LEARNING ALGORITHM ===')
     output_feature = input('Please choose your output feature: ')
     if output_feature not in features:
+        print('NOT A VALID FEATURE')
         exit(1)
     
 
